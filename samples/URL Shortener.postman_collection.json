@@ -1,0 +1,58 @@
+{
+	"info": {
+		"_postman_id": "68b7b692-7b62-47e4-946e-ed337674250c",
+		"name": "URL Shortener",
+		"description": "Simple minimal API sample to shorten URLs.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "762746"
+	},
+	"item": [
+		{
+			"name": "Add URL",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"url\": \"https://www.tsjdev-apps.de\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:5098/add",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5098",
+					"path": [
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get URL",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5098/KqQ8X",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5098",
+					"path": [
+						"KqQ8X"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
