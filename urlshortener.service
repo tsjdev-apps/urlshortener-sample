@@ -1,0 +1,10 @@
+[Unit]
+Description=URL Shortener running on a Raspberry Pi
+
+[Service]
+ExecStart=/home/raspi/.dotnet/dotnet UrlShortener.dll
+WorkingDirectory=/home/raspi/Development/urlshortener-sample/src/UrlShortener/bin/Release/net7.0/
+User=raspi
+
+[Install]
+WantedBy=multi-user.target
