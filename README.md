@@ -72,6 +72,17 @@ You can always check the current state of the service by running the `systemctl 
 *If your service is running you can simply use the IP address of the Raspberry Pi to access your URL Shortener by adding the port `5098` in your browser or Postman.*
 
 
+## Blog Posts
+
+If you are more interested into details, please see my [Medium](https://www.medium.com) posts:
+
+- [RP #01: Setup your Raspberry Pi with Raspberry Pi OS](https://medium.com/medialesson/rp-01-setup-your-raspberry-pi-with-raspberry-pi-os-b2a88617c587)
+
+- [RP #02: Install .NET and develop your first .NET application](https://medium.com/medialesson/rp-02-install-net-and-develop-your-first-net-application-4d33ebaf4f0e)
+
+- [RP #03: Creating a .NET Service to run automatically on a Raspberry Pi](https://medium.com/medialesson/rp-03-creating-a-net-service-to-run-automatically-on-a-raspberry-pi-a7554c11e664)
+
+
 ## Buy Me A Coffee
 
 I appreciate any form of support to keep my _Open Source_ activities going.
